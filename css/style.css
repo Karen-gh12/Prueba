@@ -1,0 +1,91 @@
+/*crear una tipografa*/
+@font-face{
+    font-family: "A";
+    scr: url("../fonts/Vibur-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 1em;
+    background-color: #262626;
+    color: #d9d9d9;
+}
+body{
+    margin: 0;
+    font-family: 'A', cursive;
+}
+.contenido{
+    font-size: 1.8rem;
+    color: white;
+    text-align: justify;
+
+    background-color: #06c0d8;
+    background-image: url('../img/blush.png');
+    background-size: 50% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.zona1{
+    background-image: url('../img/blush.png');
+    background-color: #06c0d8;
+}
+.zona2{background-image: url('../img/girl.png');
+background-color: #e8697b;}
+.zona3{
+   background-image: url('../img/colorful.jpg');
+    background-color: #eeeaee;
+    background-position: 50% 50%;
+    background-size: cover;
+
+
+}
+.txtDerecha{
+     padding: 1.5em 4em 3em  50%;
+     background-position: 0 50%;
+
+}
+.txtIzquierda{
+    padding: 1.5em 50% 3em 4em;
+    background-position: 100% 50%;
+
+}
+.txtCentro{
+    padding: 1.5em 25% 3em 25%;
+    text-shadow: 4px 4px 4px rgb(24, 23, 23);
+
+}
+.separador{
+    font-size: 1.5em;
+    padding: 0 1em;
+    text-align: left;
+}
+/* css imagenes*/
+.imag{
+    height: auto;
+    width: 45%;
+}
+#img1:hover{
+    filter: grayscale(80%);
+    transform: scale(1.5);
+}
+#img2:hover{
+    filter: saturate(180%);
+}
+#img3:hover{
+    transform: skew(50deg);
+}
+#img4:hover{
+    filter: blur(5px)
+}
+#img5:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    
+}
+#img6:hover{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
